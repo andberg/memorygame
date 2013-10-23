@@ -22,7 +22,7 @@ runJack = function () {
         }, 40);
         stopJack = stopJack + 1;
     } else {
-        answer = prompt("Would you like to play again?");
+        answer = prompt("Would you like to play again? Yes/No");
         if (answer === ("yes" || "Yes")) {
             location.reload();
         } else {
